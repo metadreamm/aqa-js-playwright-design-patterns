@@ -1,18 +1,3 @@
-// export class CartPage {
-
-//     constructor(page) {
-//         this.page = page;
-
-//         this.cartList = page.locator('[data-test="cart-list"]');
-//         this.checkoutBtn = page.locator('[data-test="checkout"]');
-//         this.continueShoppingBtn = page.locator('[data-test="continue-shopping"]');
-//     }
-
-//     async goToCheckout() {
-//         await this.checkoutBtn.click();
-//     }
-// }
-
 export class CartPage {
 
     constructor(page) {
