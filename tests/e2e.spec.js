@@ -7,7 +7,7 @@ import { CheckoutStepTwoPage } from '../pages/checkout-step-two.page';
 import { CheckoutCompletePage } from '../pages/checkout-complete.page';
 
 
-test('E2E: login, add most expensive item to cart, checkout and verify order completion', async ({ page }) => {
+test('@ui E2E: login, add most expensive item to cart, checkout and verify order completion', async ({ page }) => {
     // инициализируем Page Objects, передавая им объект 'page'
     const loginPage = new LoginPage(page);
     const inventoryPage = new InventoryPage(page);
