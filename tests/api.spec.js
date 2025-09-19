@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe.only('API-тесты для Restful-booker', () => {
+test.describe('API-тесты для Restful-booker', () => {
 
     const baseURL = 'https://restful-booker.herokuapp.com';
 
